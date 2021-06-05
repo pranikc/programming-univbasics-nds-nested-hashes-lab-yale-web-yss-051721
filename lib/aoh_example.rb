@@ -16,11 +16,11 @@ def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
   [
-    [DON_G[:name], DON_G[:occupation]],
-    [JOELLE_VD[:name], JOELLE_VD[:occupation]],
-    [PAT_M[:name], PAT_M[:occupation]],
-    [KATE_G[:name], KATE_G[:occupation]],
-    [BRUCE_G[:name], BRUCE_G[:occupation]],
+    assembled_aoh[0],
+    assembled_aoh[1],
+    assembled_aoh[2],
+    assembled_aoh[3],
+    assembled_aoh[4]
   ]
 end
 
